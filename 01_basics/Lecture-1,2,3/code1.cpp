@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+// Sum of n Natural numbers
+
+int main() {
+    int n;
+    cin >> n;
+
+    int sum = 0;
+    int i = 1;
+    while (i <= n) {
+        sum = sum + i;
+        i++;
+    }
+    cout << sum;
+}
